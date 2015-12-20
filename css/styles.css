@@ -1,0 +1,139 @@
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+	line-height: 140%;
+}
+
+#wrapperfront{
+	width:620px;
+	padding:150px 0 48px 0;
+	margin: 0 auto;
+}
+
+.leftcolumn{
+	width:216px;
+	height: 481px;
+	padding-top: 9px;
+	vertical-align: bottom;
+	float:left
+}
+
+.rightcolumn{
+	width:404px;
+	float:right
+}
+
+.uppercase {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.font14px {
+	font-size: 0.9333rem;
+	line-height: 140%;
+}
+
+.font12px {
+	font-size: 0.8rem;
+	line-height: 140%;
+}
+
+.font9px {
+	font-size: 0.6rem;
+	line-height: 140%;
+}
+
+.centretext {
+	text-align: center;
+}
+
+.biglogo{
+	width:404px;
+	float:right;
+	margin-bottom:25px;
+}
+
+.tagline {
+	margin-bottom:25px;
+}
+
+#hoursandaddress{
+	width:404px;
+	margin-bottom:20px;
+	float: right;
+	clear: both;
+	/*vertical-align: middle;*/
+}
+
+ul#hoursandaddress li {
+	display:inline;
+	width: 202px;
+	height: 96px;
+	padding: 8px 0px;
+}
+
+ul#hoursandaddress li:nth-child(2) {
+	padding: 17px 0px;
+}
+
+#contactmain{
+	width:404px;
+	float: right;
+	clear:both;
+	margin-bottom:16px;
+}
+
+ul#contactmain li{
+	display: inline;
+	width: 134.667px;
+	height: 36px;
+	padding: 8px 0px;
+}
+
+ul#contactmain li:nth-child(2) {
+	padding: 6px 0px;
+}
+
+footer{
+	height:10px;
+	clear: both;
+	/*float:left;*/
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+	color:#FFFFFF;
+}
+
+.border {
+	border: 1px solid #FFFFFF;
+}
+
+h1 {
+	font-family: 'Cardo', serif;
+	 font-size:22px;
+	 font-weight: 400;
+	 font-style: italic;
+	 letter-spacing: 1px;
+	 }
+
+
+	 
+
+
+#webmap {
+	width:404px; height:360px; float:right; padding-top:18px; padding-bottom:18px;
+	}
+
+
+
+p {
+	 font-family: 'Cardo', serif;
+	 font-size:13px;
+       }
+
+
+li {
+    float: left;
