@@ -2,27 +2,38 @@ body {
 	background-color: #000000;
 	color: #FFFFFF;
 	font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-	line-height: 140%;
+  font-size: 16px;
+	line-height: 135%;
 }
 
-#wrapperfront{
-	width:620px;
-	padding-top:150px;
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+	padding: 5px 1% 10px 1%;
 	margin: 0 auto;
 }
 
-.leftcolumn{
-	width:216px;
-	height: 481px;
-	padding-top: 9px;
-	vertical-align: bottom;
-	float:left
+.biglogo {
+	margin-bottom: 15px;
 }
 
-.rightcolumn{
-	width:404px;
-	float:right
+.tagline {
+	padding: 14px 0px;
+}
+
+.border {
+	border: 1px solid #FFFFFF;
+}
+
+.bordertop {
+	border-top: 1px solid #FFFFFF;
+}
+
+.borderbottom {
+	border-bottom: 1px solid #FFFFFF;
 }
 
 .uppercase {
@@ -30,80 +41,103 @@ body {
 	letter-spacing: 1px;
 }
 
+.font28px {
+	font-size: 1.75rem;
+	line-height: 135%;
+}
+
+.font26px {
+	font-size: 1.625rem;
+	line-height: 135%;
+}
+
+.font24px {
+	font-size: 1.5rem;
+	line-height: 135%;
+}
+
+.font22px {
+	font-size: 1.375rem;
+	line-height: 135%;
+}
+
+.font20px {
+	font-size: 1.25rem;
+	line-height: 135%;
+}
+
+.font18px {
+	font-size: 1.125rem;
+	line-height: 135%;
+}
+
+.font15px {
+	font-size: 0.9375rem;
+	line-height: 135%;
+}
+
 .font14px {
-	font-size: 0.9333rem;
-	line-height: 140%;
+	font-size: 0.875rem;
+	line-height: 135%;
+}
+
+.font13px {
+	font-size: 0.8125rem;
+	line-height: 135%;
 }
 
 .font12px {
-	font-size: 0.8rem;
-	line-height: 140%;
+	font-size: 0.75rem;
+	line-height: 135%;
 }
 
 .font9px {
-	font-size: 0.6rem;
-	line-height: 140%;
+	font-size: 0.5625rem;
+	line-height: 135%;
 }
 
 .centretext {
 	text-align: center;
 }
 
-.biglogo{
-	width:404px;
-	float:right;
-	margin-bottom:25px;
+.centre {
+	align-items: center;
 }
 
-.tagline {
-	margin-bottom:25px;
-}
 
 #hoursandaddress{
-	width:404px;
-	margin-bottom:20px;
-	float: right;
 	clear: both;
-	/*vertical-align: middle;*/
 }
 
 ul#hoursandaddress li {
-	display:inline;
-	width: 202px;
-	height: 96px;
-	padding: 8px 0px;
+	width: 100%;
+	display:block;
+	padding: 14px 0px;
 }
 
-ul#hoursandaddress li:nth-child(2) {
-	padding: 17px 0px;
-}
-
-li {
+/*li {
     float: left;
-	}
+	}*/
 
 #contactmain {
-	width:404px;
-	float: right;
-	clear:both;
-	margin-bottom:16px;
+	clear: both;
 }
 
 ul#contactmain li{
-	display: inline;
-	width: 134.667px;
-	/*height: 36px;*/
-	padding: 8px 0px;
+	width: 100%;
+	display: block;
+	padding: 14px 0px;
 }
 
-ul#contactmain li:nth-child(2) {
-	padding: 8px 0 5px 0;
+ul#contactmain img{
+	width: 20%;
+	display: inline;
+	padding: 0px 1%;
 }
 
 footer{
-	height:10px;
 	clear: both;
-	/*float:left;*/
+	margin-top: 20px;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -111,101 +145,31 @@ a:link, a:visited, a:hover, a:active {
 	color:#FFFFFF;
 }
 
-.border {
-	border: 1px solid #FFFFFF;
-}
-
 h1 {
 	font-family: 'Cardo', serif;
-	 font-size:22px;
+	 font-size:1.25rem;
 	 font-weight: 400;
 	 font-style: italic;
 	 letter-spacing: 1px;
 	 }
 
+.imfell {
+	font-family: 'IM Fell DW Pica', serif;
+	/*font-weight: 400;*/
+	/*font-style: italic;*/
+}
 
-
-/***************************
-max-width:660px
-***************************/
-
-@media only screen and (max-width:660px){
-
-	#wrapperfront{
-		width:420px;
-		padding-top:50px;
-		margin: 0 auto;
-	}
-
-	.leftcolumn{
-		display: none;
-		clear: both;
-	}
-
-	.rightcolumn{
-		width:404px;
-		margin: 0 auto;
-		float:none;
-	}
+#facebook {
+	width: 340px;
+	margin: 0 auto;
+	text-align: center;
 
 }
 
-
-/***************************
-min-width:620px - to hide mobile elements
-***************************/
-
-@media only screen and (min-width:620px){
-  ul#hoursandaddressmob li {
-  	display: none;
-  }
-}
-
-
-/***************************
-max-width:620px
-***************************/
-
-@media only screen and (max-width:620px){
-
-	ul#hoursandaddress li {
-  	display: none;
-  }
-
-	ul#hoursandaddressmob li {
-  	display: block;
-		width: 404px;
-		padding: 16px 0;
-  }
-
-	ul#hoursandaddressmob li {
-		display: block;
-		width: 404px;
-		padding: 16px 0;
-	}
-
-	ul#contactmain li{
-		display: block;
-		vertical-align: text-top;
-		width: 404px;
-		padding: 20px 0;
-	}
-}
-
-	/*ul#hoursandaddress li {
-		display:block;
-		height: 100px;
-		width: 404px;
-		vertical-align: top;
-	}
-
-	ul#hoursandaddress li:nth-child(2) {
-		height: 100px;
-		vertical-align: top;
-	}*/
-
-	/*li {
-	    float: right;
-		}*/
-
+iframe {
+	width:100%;
+	height:300px;
+	border:none;
+	overflow:hidden;
+	background: #000000;
 }
