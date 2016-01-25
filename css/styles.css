@@ -8,7 +8,7 @@ body {
 
 #wrapperfront{
 	width:620px;
-	padding:150px 0 48px 0;
+	padding-top:150px;
 	margin: 0 auto;
 }
 
@@ -78,7 +78,11 @@ ul#hoursandaddress li:nth-child(2) {
 	padding: 17px 0px;
 }
 
-#contactmain{
+li {
+    float: left;
+	}
+
+#contactmain {
 	width:404px;
 	float: right;
 	clear:both;
@@ -88,12 +92,12 @@ ul#hoursandaddress li:nth-child(2) {
 ul#contactmain li{
 	display: inline;
 	width: 134.667px;
-	height: 36px;
+	/*height: 36px;*/
 	padding: 8px 0px;
 }
 
 ul#contactmain li:nth-child(2) {
-	padding: 6px 0px;
+	padding: 8px 0 5px 0;
 }
 
 footer{
@@ -120,20 +124,88 @@ h1 {
 	 }
 
 
-	 
 
+/***************************
+max-width:660px
+***************************/
 
-#webmap {
-	width:404px; height:360px; float:right; padding-top:18px; padding-bottom:18px;
+@media only screen and (max-width:660px){
+
+	#wrapperfront{
+		width:420px;
+		padding-top:50px;
+		margin: 0 auto;
 	}
 
+	.leftcolumn{
+		display: none;
+		clear: both;
+	}
+
+	.rightcolumn{
+		width:404px;
+		margin: 0 auto;
+		float:none;
+	}
+
+}
 
 
-p {
-	 font-family: 'Cardo', serif;
-	 font-size:13px;
-       }
+/***************************
+min-width:620px - to hide mobile elements
+***************************/
+
+@media only screen and (min-width:620px){
+  ul#hoursandaddressmob li {
+  	display: none;
+  }
+}
 
 
-li {
-    float: left;
+/***************************
+max-width:620px
+***************************/
+
+@media only screen and (max-width:620px){
+
+	ul#hoursandaddress li {
+  	display: none;
+  }
+
+	ul#hoursandaddressmob li {
+  	display: block;
+		width: 404px;
+		padding: 16px 0;
+  }
+
+	ul#hoursandaddressmob li {
+		display: block;
+		width: 404px;
+		padding: 16px 0;
+	}
+
+	ul#contactmain li{
+		display: block;
+		vertical-align: text-top;
+		width: 404px;
+		padding: 20px 0;
+	}
+}
+
+	/*ul#hoursandaddress li {
+		display:block;
+		height: 100px;
+		width: 404px;
+		vertical-align: top;
+	}
+
+	ul#hoursandaddress li:nth-child(2) {
+		height: 100px;
+		vertical-align: top;
+	}*/
+
+	/*li {
+	    float: right;
+		}*/
+
+}
